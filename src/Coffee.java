@@ -30,8 +30,6 @@ public class Coffee {
         this.coffeeBlend = coffeeBlend;
     }
 
-    public static void addCoffee() {
 
-    }
 
 }

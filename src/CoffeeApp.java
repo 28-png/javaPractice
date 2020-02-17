@@ -7,4 +7,16 @@ public class CoffeeApp {
         this.coffeeList = coffeeList;
     }
 
+    Coffee first = new Coffee("french", "light");
+    Coffee second = new Coffee("cappuccino", "medium");
+    Coffee third = new Coffee("kenyan", "dark");
+
+    public static String addCoffee() {
+
+    }
+
+    public static String removeCoffee() {
+
+    }
+
 }
