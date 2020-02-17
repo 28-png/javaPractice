@@ -18,8 +18,16 @@ public class CoffeeApp {
        this.coffeeList.add(newCoffee);
     }
 
+    public void addCoffee(Coffee newCoffee, int index) {
+     this.coffeeList.add(index, newCoffee);
+    }
+
     public void removeCoffee(Coffee coffeeGone) {
      this.coffeeList.remove(coffeeGone);
+    }
+
+    public void removeCoffee(int index) {
+      this.coffeeList.remove(index);
     }
 
 }
